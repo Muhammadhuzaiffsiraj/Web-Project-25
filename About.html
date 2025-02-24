@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT US</title>
+    <link rel="stylesheet" href="design1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body id="bod">
+
+    <div class="header-1">
+
+        <div>
+            <nav id="list">
+                <div id="toggleButton" >
+                    <img src="./menu (2).png" alt="Menu" id="ico">
+                </div>
+                <ul class="container">
+                    <div class="logo">
+                        <img src="./canva-white-red-simple-flat-fitness-gym-logo-Fm7VAyJzv0o-removebg-preview.png"
+                            alt="Logo" id="king">
+                    </div>
+                    <li><a href="./index.html" class="home-link">HOME</a></li>
+                    <li><a href="./About.html">ABOUT</a></li>
+                    <!-- <li><a href="../">COURSES</a></li> -->
+                    <li><a href="./Price.html">PRICING</a></li>
+                    <li><a href="./Gallery.html">GALLERY</a></li>
+                    <li><a href="./Service.html">SERVICES</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                    <!-- <li><div id="closeButton"><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></div></li> -->
+                    <button class="lahe"><a href="./sign.html">Sing-in</a></button>
+                </ul>
+            </nav>
+
+        </div>
+
+
+    </div>
+    <div class="container-2">
+        <div class="header-2">ABOUT ME</div>
+    </div>
+
+
+
+
+    <div id="container-3">
+        <div id="one">
+            <h3 class="mutt">BODY BUILDING</h3>
+        </div>
+
+        <div id="two">
+            <h3 class="mutt">MUSCLE GAIN</h3>
+
+        </div>
+
+        <div id="three">
+            <h3 class="mutt">WEIGHT LOSS</h3>
+
+        </div>
+    </div>
+
+    <div id="long">
+        <div id="men">
+            <div id="mono"></div>
+            <div id="mono-1">
+                <div id="chang">
+                    <h3 class="abot">ABOUT ME</h3>
+                    <p id="para-2">You’ll look at graphs and charts in Task One, how to approach the task and the
+                        language
+                        needed for a successful answer. You’ll examine Task Two questions and learn how to plan, write
+                        and
+                        check
+                        academic essays.</p>
+                    <button class="new-2025-button pulse">Explore Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="container-00">
+        <div id="section">
+            <div id="box"></div>
+            <div id="box-1">
+                <div id="content">
+                    <h3 class="info">MY LONG TERM</h3>
+                    <p id="text-1">You’ll look at graphs and charts in Task One, how to approach the task and the
+                        language
+                        needed for a successful answer. You’ll examine Task Two questions and learn how to plan, write
+                        and
+                        check academic essays.</p>
+
+                    <button class="cta-button animate">Explore Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="heading-1">
+        <h2 class="fault">FROM BLOG</h2>
+    </div>
+
+
+    <div class="video-container">
+        <video id="myVideo" src="./2025457-hd_1280_720_30fps.mp4"
+            poster="./WWE 2K23 John Cena 4k - Free 4k Wallpapers - 40_000+ Free 4k Wallpapers - Pixel4k (2).jpg"></video>
+        <div class="controls">
+            <button onclick="playPause()">▶️ Play/Pause</button>
+            <button onclick="muteUnmute()">🔊 Mute/Unmute</button>
+        </div>
+    </div>
+
+
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>About Us</h2>
+                <p>
+                    We are a creative team dedicated to BORCELLE Fitness GYM and digital experiences.
+                </p>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="../indo/index.html">Home</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">COURSES</a></li>
+                    <li><a href="#">PRICING</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="../serv/Service.html">Services</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h2>Follow Us</h2>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 Your Company. All rights reserved.
+        </div>
+    </footer>
+
+
+    <script>
+        const video = document.getElementById("myVideo");
+        function playPause() {
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+        function muteUnmute() {
+            video.muted = !video.muted;
+        }
+
+        const toggleButton = document.getElementById('toggleButton');
+        const container = document.querySelector('.container');
+
+        toggleButton.addEventListener('click', () => {
+            container.classList.toggle('active');
+        });
+    </script>
+
+</body>
+
+</html>
