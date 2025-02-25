@@ -17,9 +17,9 @@
 
 .header-1 {
   background-image: url(./hero2.png);
-  background-size: cover;
+ /* background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
   width: 140%;
   height: 60vh;
   background-color: black;
